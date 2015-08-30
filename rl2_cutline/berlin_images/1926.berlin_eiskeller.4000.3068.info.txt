@@ -1,0 +1,44 @@
+Driver: GTiff/GeoTIFF
+Files: 1926.berlin_eiskeller.4000.3068.tif
+Size is 4567, 6362
+Coordinate System is:
+PROJCS["DHDN / Soldner Berlin",
+    GEOGCS["DHDN",
+        DATUM["Deutsches_Hauptdreiecksnetz",
+            SPHEROID["Bessel 1841",6377397.155,299.1528128000033,
+                AUTHORITY["EPSG","7004"]],
+            TOWGS84[598.1,73.7,418.2,0.202,0.045,-2.455,6.7],
+            AUTHORITY["EPSG","6314"]],
+        PRIMEM["Greenwich",0],
+        UNIT["degree",0.0174532925199433],
+        AUTHORITY["EPSG","4314"]],
+    PROJECTION["Cassini_Soldner"],
+    PARAMETER["latitude_of_origin",52.41864827777778],
+    PARAMETER["central_meridian",13.62720366666667],
+    PARAMETER["false_easting",40000],
+    PARAMETER["false_northing",10000],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AUTHORITY["EPSG","3068"]]
+Origin = (6000.000000000000000,31000.000000000000000)
+Pixel Size = (0.613093934749288,-0.613014775227916)
+Metadata:
+  AREA_OR_POINT=Area
+  TIFFTAG_ARTIST=mj10777.de.eu
+  TIFFTAG_COPYRIGHT=2014 HistoMap Berlin, Landeskartenwerk Karte von Berlin 1:4.000 (K4)
+  TIFFTAG_DATETIME=1932
+  TIFFTAG_SOFTWARE=srid=3068;bbox=3200,400,49600,38800;scale=1:4000;area=46400x38400=1781760000
+Image Structure Metadata:
+  INTERLEAVE=PIXEL
+Corner Coordinates:
+Upper Left  (    6000.000,   31000.000) ( 13d 7'30.96"E, 52d36'22.77"N)
+Lower Left  (    6000.000,   27100.000) ( 13d 7'32.40"E, 52d34'16.59"N)
+Upper Right (    8800.000,   31000.000) ( 13d 9'59.76"E, 52d36'23.37"N)
+Lower Right (    8800.000,   27100.000) ( 13d10' 1.08"E, 52d34'17.19"N)
+Center      (    7400.000,   29050.000) ( 13d 8'46.05"E, 52d35'19.99"N)
+Band 1 Block=4567x1 Type=Byte, ColorInterp=Red
+  NoData Value=119
+Band 2 Block=4567x1 Type=Byte, ColorInterp=Green
+  NoData Value=119
+Band 3 Block=4567x1 Type=Byte, ColorInterp=Blue
+  NoData Value=119
