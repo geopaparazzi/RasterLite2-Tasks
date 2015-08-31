@@ -25,7 +25,7 @@
         </destinationsrs>
         <layer_coordinate_transform_info/>
     </mapcanvas>
-    <legend updateDrawingOrder="true">
+    <legend updateDrawingOrder="true" activeLayer="20150830_1926_berlin_eiskeller_schnitt_spandau_1928_306820150831074229727">
         <legendgroup open="true" checked="Qt::Checked" name="gometries">
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="bezirke_1928" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
@@ -34,9 +34,9 @@
             </legendlayer>
         </legendgroup>
         <legendgroup open="true" checked="Qt::Checked" name="eiskeller_cutline">
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="20150830.1926.berlin_eiskeller_schnitt_spandau_1928.3068." showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="20150830.1926.berlin_eiskeller_schnitt_spandau_1928.3068" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="20150830_1926_berlin_eiskeller_schnitt_spandau_1928_3068_20150830043648167" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="20150830_1926_berlin_eiskeller_schnitt_spandau_1928_306820150831074229727" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
@@ -85,14 +85,14 @@
             <blendMode>0</blendMode>
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-            <id>20150830_1926_berlin_eiskeller_schnitt_spandau_1928_3068_20150830043648167</id>
-            <datasource>../20150830.1926.berlin_eiskeller_schnitt_spandau_1928.3068..tif</datasource>
+            <id>20150830_1926_berlin_eiskeller_schnitt_spandau_1928_306820150831074229727</id>
+            <datasource>/home/mj10777/000_links/geopaparazzi/geopaparazzi.eu/RasterLite2-Tasks/rl2_cutline/berlin_images/20150830.1926.berlin_eiskeller_schnitt_spandau_1928.3068.tif</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
                 <value></value>
             </keywordList>
-            <layername>20150830.1926.berlin_eiskeller_schnitt_spandau_1928.3068.</layername>
+            <layername>20150830.1926.berlin_eiskeller_schnitt_spandau_1928.3068</layername>
             <srs>
                 <spatialrefsys>
                     <proj4>+proj=cass +lat_0=52.41864827777778 +lon_0=13.62720366666667 +x_0=40000 +y_0=10000 +ellps=bessel +towgs84=598.1,73.7,418.2,0.202,0.045,-2.455,6.7 +units=m +no_defs</proj4>

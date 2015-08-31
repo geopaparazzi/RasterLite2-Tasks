@@ -1,0 +1,46 @@
+Driver: GTiff/GeoTIFF
+Files: 1750.Berlin_Plan_de_la_ville_Schmettau.4333.3068.tif
+Size is 12640, 13869
+Coordinate System is:
+PROJCS["DHDN / Soldner Berlin",
+    GEOGCS["DHDN",
+        DATUM["Deutsches_Hauptdreiecksnetz",
+            SPHEROID["Bessel 1841",6377397.155,299.1528128000033,
+                AUTHORITY["EPSG","7004"]],
+            TOWGS84[598.1,73.7,418.2,0.202,0.045,-2.455,6.7],
+            AUTHORITY["EPSG","6314"]],
+        PRIMEM["Greenwich",0],
+        UNIT["degree",0.0174532925199433],
+        AUTHORITY["EPSG","4314"]],
+    PROJECTION["Cassini_Soldner"],
+    PARAMETER["latitude_of_origin",52.41864827777778],
+    PARAMETER["central_meridian",13.62720366666667],
+    PARAMETER["false_easting",40000],
+    PARAMETER["false_northing",10000],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AUTHORITY["EPSG","3068"]]
+Origin = (21778.451567453565076,24589.124908014826360)
+Pixel Size = (0.542863255657581,-0.542863255657581)
+Metadata:
+  AREA_OR_POINT=Area
+  TIFFTAG_ARTIST=mj10777.de.eu
+  TIFFTAG_COPYRIGHT=https://upload.wikimedia.org/wikipedia/commons/4/42/Schmettau_Plan_de_la_Ville_de_Berlin_1750.jpg
+  TIFFTAG_DOCUMENTNAME=1750 Stadtplan von Berlin, Schmettau - 1:4333
+  TIFFTAG_IMAGEDESCRIPTION=Der Plan wurde nach einer um 1747 abgeschlossenen Neuvermessung Berlins angefertigt und wird als äußerst zuverlässige Quelle angesehen. Der Titel ist in einer sehr kunstvollen Allegorie des Kupferstechers Georg Friedrich Schmidt im linken unteren Blatt eingefasst. Die Karte selbst ist hingegen laut Jacoby von Friedrich Gottlieb Berger gestochen. Bei diesem Exemplar handelt es sich um eine 1750 korrigierte Version der ursprünglichen Ausgabe von 1748; lediglich zu erkennen an verschiedentlichen überklebten Stellen. Korrigiert wurden: Das Octagon (vor dem Potsdamer Tor ist der Friedrichstädtische Kirchhof hinzugekommen). Das Prinz Heinrich Palais. Umgebung des Invalidenhauses (Gärten nachgetragen). Die Gegend zwischen den Bastionen 12 und 13 die (Alte) Friedrichsbrücke (später auch Herkulesbrücke genannt). Gebiet der Bollwerke 6 und 7 bei Neukölln am Wasser.
+  TIFFTAG_SOFTWARE=srid=3068;bbox=bbox=21778,17060,28640,24589;scale=1:4333;area=6862x7529=51663998
+Image Structure Metadata:
+  COMPRESSION=DEFLATE
+  INTERLEAVE=PIXEL
+Corner Coordinates:
+Upper Left  (   21778.452,   24589.125) ( 13d21'30.78"E, 52d32'58.08"N)
+Lower Left  (   21778.452,   17060.154) ( 13d21'32.27"E, 52d28'54.48"N)
+Upper Right (   28640.243,   24589.125) ( 13d27'34.99"E, 52d32'58.75"N)
+Lower Right (   28640.243,   17060.154) ( 13d27'35.91"E, 52d28'55.14"N)
+Center      (   25209.347,   20824.640) ( 13d24'33.49"E, 52d30'56.65"N)
+Band 1 Block=512x512 Type=Byte, ColorInterp=Red
+  NoData Value=192
+Band 2 Block=512x512 Type=Byte, ColorInterp=Green
+  NoData Value=192
+Band 3 Block=512x512 Type=Byte, ColorInterp=Blue
+  NoData Value=192
