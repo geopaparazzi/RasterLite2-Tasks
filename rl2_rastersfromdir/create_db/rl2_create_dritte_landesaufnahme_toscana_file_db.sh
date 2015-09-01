@@ -1,5 +1,5 @@
 #"/bin/bash
-# ./rl2_create_eiskeller_db.sh
+# ./rl2_create_dritte_landesaufnahme_toscana_file_db.sh
 #---------------------------------------------------
 # Adapt db/sql diretory path where needed
 #---------------------------------------------------
@@ -13,7 +13,8 @@ IMAGE_BASE="1903.dritte_landesaufnahme_toscana";
 #---------------------------------------------------
 # no more changes should be needed
 #---------------------------------------------------
-DB_FILE="${IMAGE_BASE}.db";
+exit_rc=0;
+DB_FILE="${IMAGE_BASE}_file.db";
 SQL_FILE="create.rl2.${IMAGE_BASE}.sql";
 IMAGE_FILE="${IMAGE_BASE}.200000.4805.tif";
 # IMAGE_FILE="${IMAGE_FILE}.200000.4805.info.txt";
