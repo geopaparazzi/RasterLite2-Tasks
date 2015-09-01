@@ -1,7 +1,7 @@
 # everything over 100 MB must be ignored
 ## this exceeds GitHub's file size limit of 100.00 MB
 rl2_berlin/berlin_images/1750.Berlin_Plan_de_la_ville_Schmettau.4333.3068.tif
-common/berlin_images/1750.Berlin_Plan_de_la_ville_Schmettau.4333.3068.tif
+rl2_rastersfromdir/source_image/1903.dritte_landesaufnahme_toscana.200000.4805.tif
 
 # temporary files
 *.qgs~

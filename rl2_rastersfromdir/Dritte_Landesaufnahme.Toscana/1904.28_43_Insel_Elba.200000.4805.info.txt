@@ -1,0 +1,36 @@
+Driver: GTiff/GeoTIFF
+Files: 1904.28_43_Insel_Elba.200000.4805.tif
+Size is 4377, 4200
+Coordinate System is:
+GEOGCS["MGI (Ferro)",
+    DATUM["Militar_Geographische_Institut_Ferro",
+        SPHEROID["Bessel 1841",6377397.155,299.1528128000033,
+            AUTHORITY["EPSG","7004"]],
+        TOWGS84[682,-203,480,0,0,0,0],
+        AUTHORITY["EPSG","6805"]],
+    PRIMEM["Ferro",-17.66666666666667],
+    UNIT["degree",0.0174532925199433],
+    AUTHORITY["EPSG","4805"]]
+Origin = (27.457999999999998,43.500000000000000)
+Pixel Size = (0.000238062599954,-0.000238095238095)
+Metadata:
+  AREA_OR_POINT=Area
+  TIFFTAG_ARTIST=mj10777.de.eu
+  TIFFTAG_DATETIME=1904
+  TIFFTAG_DOCUMENTNAME=1904 28-43 - Insel Elba, Elba (island) - Dritte Landesaufnahme (Franzisco-Josephinische) Österreich - 1:2000000
+  TIFFTAG_IMAGEDESCRIPTION=Italienische Weinkultur Weniger gebräuchliche Abkürzungen: Fo. Fosso (Graben); Po. Poggio (Hügel); Tro. Torre (Turm); C. Capo (Kap); Cast. Castello (Schloss); Fb. Fabrik (Fabbrica); Fatt. Fattoria (Meierhof) Nr. 11
+  TIFFTAG_RESOLUTIONUNIT=2 (pixels/inch)
+  TIFFTAG_XRESOLUTION=220
+  TIFFTAG_YRESOLUTION=220
+Image Structure Metadata:
+  COMPRESSION=DEFLATE
+  INTERLEAVE=PIXEL
+Corner Coordinates:
+Upper Left  (  27.4580000,  43.5000000) ( 27d27'28.80"E, 43d30' 0.00"N)
+Lower Left  (  27.4580000,  42.5000000) ( 27d27'28.80"E, 42d30' 0.00"N)
+Upper Right (  28.5000000,  43.5000000) ( 28d30' 0.00"E, 43d30' 0.00"N)
+Lower Right (  28.5000000,  42.5000000) ( 28d30' 0.00"E, 42d30' 0.00"N)
+Center      (  27.9790000,  43.0000000) ( 27d58'44.40"E, 43d 0' 0.00"N)
+Band 1 Block=4377x1 Type=Byte, ColorInterp=Red
+Band 2 Block=4377x1 Type=Byte, ColorInterp=Green
+Band 3 Block=4377x1 Type=Byte, ColorInterp=Blue

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE WMT_MS_Capabilities SYSTEM "http://schemas.opengis.net/wms/1.1.1/capabilities_1_1_1.dtd" [
+<!ELEMENT VendorSpecificCapabilities (#PCDATA)>]>
+<WMT_MS_Capabilities xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1.1">
+  <Service>
+    <Name>OGC:WMS</Name>
+    <Title>Luftbilder 1928, Maßstab 1:4 000</Title>
+    <Abstract>Senkrechtaufnahmen von Berlin, Fotoblätter ohne Überlappungen im Maßstab 1:4000. [http://fbinter.stadt-berlin.de/fb/berlin/service.jsp?id=k_luftbild1928@senstadt&type=WMS]</Abstract>
+    <KeywordList>
+      <Keyword>Orthoimagery</Keyword>
+      <Keyword>Luftbild</Keyword>
+      <Keyword>AdVMIS</Keyword>
+      <Keyword>Karten</Keyword>
+      <Keyword>Geodaten</Keyword>
+      <Keyword>Berlin</Keyword>
+      <Keyword>Luftbilder</Keyword>
+      <Keyword>Luftbildpläne</Keyword>
+      <Keyword>Senkrechtaufnahmen</Keyword>
+      <Keyword>Luftbildplan</Keyword>
+      <Keyword>Luftbildmosaike</Keyword>
+    </KeywordList>
+    <OnlineResource xlink:href="http://www.stadtentwicklung.berlin.de/geoinformation/fis-broker/" xlink:type="simple" />
+    <ContactInformation>
+      <ContactPersonPrimary>
+        <ContactPerson />
+        <ContactOrganization>Senatsverwaltung für Stadtentwicklung und Umwelt Berlin</ContactOrganization>
+      </ContactPersonPrimary>
+      <ContactPosition>pointOfContact</ContactPosition>
+      <ContactAddress>
+        <AddressType>postal</AddressType>
+        <Address />
+        <City />
+        <StateOrProvince />
+        <PostCode />
+        <Country>Germany</Country>
+      </ContactAddress>
+      <ContactVoiceTelephone>+49-30-90139-5257</ContactVoiceTelephone>
+      <ContactElectronicMailAddress>fisbroker@senstadtum.berlin.de</ContactElectronicMailAddress>
+    </ContactInformation>
+    <Fees>Nutzungsbedingungen: Für die Verwendung der Daten gelten folgende Nutzungsbestimmungen: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf - Der Quellenvermerk gemäß §2 lautet "Geoportal Berlin / [Titel des Datensatzes]".</Fees>
+    <AccessConstraints>keine</AccessConstraints>
+  </Service>
+  <Capability>
+    <Request>
+      <GetCapabilities>
+        <Format>application/vnd.ogc.wms_xml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:type="simple" xlink:href="http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild1928?" />
+            </Get>
+            <Post>
+              <OnlineResource xlink:type="simple" xlink:href="http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild1928?" />
+            </Post>
+          </HTTP>
+        </DCPType>
+      </GetCapabilities>
+      <GetMap>
+        <Format>image/jpeg</Format>
+        <Format>image/png</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:type="simple" xlink:href="http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild1928?" />
+            </Get>
+            <Post>
+              <OnlineResource xlink:type="simple" xlink:href="http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild1928?" />
+            </Post>
+          </HTTP>
+        </DCPType>
+      </GetMap>
+      <GetFeatureInfo>
+        <Format>text/html</Format>
+        <Format>application/vnd.ogc.gml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:type="simple" xlink:href="http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild1928?" />
+            </Get>
+            <Post>
+              <OnlineResource xlink:type="simple" xlink:href="http://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild1928?" />
+            </Post>
+          </HTTP>
+        </DCPType>
+      </GetFeatureInfo>
+    </Request>
+    <Exception>
+      <Format>application/vnd.ogc.se_xml</Format>
+    </Exception>
+    <VendorSpecificCapabilities />
+    <!-- Layers -->
+    <Layer queryable="0" opaque="0">
+      <Title>Luftbilder 1928, Maßstab 1:4 000</Title>
+      <Abstract>Senkrechtaufnahmen von Berlin, Fotoblätter ohne Überlappungen im Maßstab 1:4 000.</Abstract>
+      <KeywordList>
+        <Keyword>AdVMIS</Keyword>
+        <Keyword>Karten</Keyword>
+        <Keyword>Geodaten</Keyword>
+        <Keyword>Berlin</Keyword>
+        <Keyword>Luftbilder</Keyword>
+        <Keyword>Luftbildpläne</Keyword>
+        <Keyword>Senkrechtaufnahmen</Keyword>
+        <Keyword>Luftbildplan</Keyword>
+        <Keyword>Luftbildmosaike</Keyword>
+      </KeywordList>
+      <SRS>EPSG:3068</SRS>
+      <SRS>EPSG:4326</SRS>
+      <LatLonBoundingBox minx="13.079" miny="52.3284" maxx="13.7701" maxy="52.6877" />
+      <BoundingBox minx="2750" miny="250" maxx="49780" maxy="40100" SRS="EPSG:3068" />
+      <AuthorityURL name="GDI-DE">
+        <OnlineResource xlink:type="simple" xlink:href="http://www.gdi-de.org" />
+      </AuthorityURL>
+      <Identifier authority="GDI-DE">2ca8d68f-afc1-3111-82c2-a376d4141620</Identifier>
+      <MetadataURL type="TC211">
+        <Format>text/xml</Format>
+        <OnlineResource xlink:href="http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;ID=6b746499-7354-3a3a-aa70-60e1fb37f993&amp;ELEMENTSETNAME=FULL" />
+      </MetadataURL>
+      <Style>
+        <Name>default</Name>
+        <Title>Standard</Title>
+        <LegendURL width="300" height="300">
+          <Format>image/png</Format>
+          <OnlineResource xlink:href="http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_luftbild1928" />
+        </LegendURL>
+      </Style>
+      <Layer queryable="0" opaque="0">
+        <Name>0</Name>
+        <Title>Luftbildplan 1928</Title>
+        <KeywordList>
+          <Keyword>AdVMIS</Keyword>
+          <Keyword>Karten</Keyword>
+          <Keyword>Geodaten</Keyword>
+          <Keyword>Berlin</Keyword>
+          <Keyword>Luftbilder</Keyword>
+          <Keyword>Luftbildpläne</Keyword>
+          <Keyword>Senkrechtaufnahmen</Keyword>
+          <Keyword>Luftbildplan</Keyword>
+          <Keyword>Luftbildmosaike</Keyword>
+        </KeywordList>
+        <SRS>EPSG:3068</SRS>
+        <SRS>EPSG:4326</SRS>
+        <LatLonBoundingBox minx="13.079" miny="52.3284" maxx="13.7701" maxy="52.6877" />
+        <BoundingBox minx="2750" miny="250" maxx="49780" maxy="40100" SRS="EPSG:3068" />
+        <BoundingBox minx="13.079" miny="52.3284" maxx="13.7701" maxy="52.6877" SRS="EPSG:4326" />
+        <Identifier authority="GDI-DE">2ca8d68f-afc1-3111-82c2-a376d4141620</Identifier>
+        <MetadataURL type="TC211">
+          <Format>text/xml</Format>
+          <OnlineResource xlink:href="http://fbinter.stadt-berlin.de/fb/csw?REQUEST=GetRecordById&amp;SERVICE=CSW&amp;VERSION=2.0.2&amp;ID=6b746499-7354-3a3a-aa70-60e1fb37f993&amp;ELEMENTSETNAME=FULL" />
+        </MetadataURL>
+        <Style>
+          <Name>gdi_default</Name>
+          <Title>Standard GDI Style</Title>
+          <LegendURL width="300" height="300">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="http://fbinter.stadt-berlin.de/fb/wms/legend/senstadt/k_luftbild1928?layerID=0" />
+          </LegendURL>
+        </Style>
+        <ScaleHint min="0" max="105" />
+      </Layer>
+    </Layer>
+  </Capability>
+</WMT_MS_Capabilities>

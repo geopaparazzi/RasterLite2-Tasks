@@ -1,0 +1,39 @@
+Driver: GTiff/GeoTIFF
+Files: 1905.29_44_Florenz.200000.4805.tif
+Size is 4192, 4192
+Coordinate System is:
+GEOGCS["MGI (Ferro)",
+    DATUM["Militar_Geographische_Institut_Ferro",
+        SPHEROID["Bessel 1841",6377397.155,299.1528128000033,
+            AUTHORITY["EPSG","7004"]],
+        TOWGS84[682,-203,480,0,0,0,0],
+        AUTHORITY["EPSG","6805"]],
+    PRIMEM["Ferro",-17.66666666666667],
+    UNIT["degree",0.0174532925199433],
+    AUTHORITY["EPSG","4805"]]
+Origin = (28.500000000000000,44.500000000000000)
+Pixel Size = (0.000238549618321,-0.000238549618321)
+Metadata:
+  AREA_OR_POINT=Area
+  TIFFTAG_ARTIST=mj10777.de.eu
+  TIFFTAG_DATETIME=1905
+  TIFFTAG_DOCUMENTNAME=1905 29-44 - Florenz, Firenze - Dritte Landesaufnahme (Franzisco-Josephinische) Österreich - 1:200000
+  TIFFTAG_IMAGEDESCRIPTION=Nachtr.: 16.III.1909. Poststationen, dann Kalköfen und Ziegelöfen sind nicht eingetragen. Fb. Fabrik (Fabbrica); H. Höhle (Grotta); Kls. Kloster (Convento); Schl. Schloss (Castello); M.H. Meierhof (Fattoria); W.H. Wirtshaus (Osteria); R. Ruine (Rovina) Nr. 14
+  TIFFTAG_RESOLUTIONUNIT=2 (pixels/inch)
+  TIFFTAG_XRESOLUTION=220
+  TIFFTAG_YRESOLUTION=220
+Image Structure Metadata:
+  COMPRESSION=DEFLATE
+  INTERLEAVE=PIXEL
+Corner Coordinates:
+Upper Left  (  28.5000000,  44.5000000) ( 28d30' 0.00"E, 44d30' 0.00"N)
+Lower Left  (  28.5000000,  43.5000000) ( 28d30' 0.00"E, 43d30' 0.00"N)
+Upper Right (  29.5000000,  44.5000000) ( 29d30' 0.00"E, 44d30' 0.00"N)
+Lower Right (  29.5000000,  43.5000000) ( 29d30' 0.00"E, 43d30' 0.00"N)
+Center      (  29.0000000,  44.0000000) ( 29d 0' 0.00"E, 44d 0' 0.00"N)
+Band 1 Block=4192x1 Type=Byte, ColorInterp=Red
+  NoData Value=128
+Band 2 Block=4192x1 Type=Byte, ColorInterp=Green
+  NoData Value=128
+Band 3 Block=4192x1 Type=Byte, ColorInterp=Blue
+  NoData Value=128

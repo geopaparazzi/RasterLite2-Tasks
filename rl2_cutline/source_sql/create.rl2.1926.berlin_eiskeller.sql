@@ -48,7 +48,7 @@ SELECT RL2_LoadRaster
 (
   -- chosen name of raster_coverage
  '1926.berlin_eiskeller',
- -- path to file to be loaded
+ -- path to the file to be loaded
  '../berlin_images/1926.berlin_eiskeller.4000.3068.tif', 
  -- with_worldfile (0= if geotiff, 1= if worldfile)
  0, 
