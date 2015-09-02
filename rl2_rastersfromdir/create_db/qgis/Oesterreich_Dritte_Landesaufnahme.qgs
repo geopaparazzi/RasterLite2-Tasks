@@ -5,10 +5,10 @@
     <mapcanvas>
         <units>degrees</units>
         <extent>
-            <xmin>27.22294648185723176</xmin>
-            <ymin>42.34621941394124889</ymin>
-            <xmax>30.67771343100977433</xmax>
-            <ymax>45.02569124492716668</ymax>
+            <xmin>25.87627118644067536</xmin>
+            <ymin>41.42499999999999716</ymin>
+            <xmax>31.12372881355932464</xmax>
+            <ymax>44.57500000000000284</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -37,7 +37,7 @@
             <layer_coordinate_transform destAuthId="EPSG:4805" srcAuthId="EPSG:3068" srcDatumTransform="-1" destDatumTransform="-1" layerid="1910_26_47_Zuerich_20000020150630084911572"/>
         </layer_coordinate_transform_info>
     </mapcanvas>
-    <legend updateDrawingOrder="true" activeLayer="tuscany20150901140334825">
+    <legend updateDrawingOrder="true" activeLayer="1903_dritte_landesaufnahme_toscana_200000_480520150901135459221">
         <legendgroup open="true" checked="Qt::Checked" name="source_shapes">
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="tuscany" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
