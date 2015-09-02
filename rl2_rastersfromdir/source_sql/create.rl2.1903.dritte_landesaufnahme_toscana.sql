@@ -69,7 +69,8 @@ SELECT RL2_PyramidizeMonolithic('dritte_landesaufnahme_toscana');
 SELECT DateTime('now'),'command(s): SE_UpdateRasterCoverageExtent/SE_UpdateVectorCoverageExtent';
 -- the DB "dritte_landesaufnahme_toscana_dir.db" doesn't contain any valid Raster or Vector Coverage
 --> cause: missing SE_UpdateRasterCoverageExtent/SE_UpdateVectorCoverageExtent
-SELECT SE_UpdateRasterCoverageExtent(1);
-SELECT SE_UpdateVectorCoverageExtent(1);
+---
+.read ../source_sql/update.database.sql
+---
 -- VACUUM;
 SELECT DateTime('now'),'createraster.rl2_Dritte_Landesaufnahme.Toscana [finished] [Habe fertig!]';

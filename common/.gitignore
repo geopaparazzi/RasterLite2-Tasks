@@ -1,10 +1,5 @@
-# common entries for all directories
 # everything over 100 MB must be ignored
 ## this exceeds GitHub's file size limit of 100.00 MB
-
-# temporary files
-*.qgs~
-*.db-shm
-*.db-wal
+berlin_images/2010.berlin_k5_schmettau.5000.3068.tif
 
 

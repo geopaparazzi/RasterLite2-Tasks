@@ -33,7 +33,11 @@ UPDATE raster_coverages SET nodata_pixel = RL2_SetPixelValue(nodata_pixel,2,192)
 SELECT DateTime('now'),'command: RL2_SetRasterCoverageInfos - title and abstract text';
 SELECT RL2_SetRasterCoverageInfos
 (
- '1750.berlin_schmettau','1750 Stadtplan von Berlin, Schmettau - 1:4333 - Schwarz-Weiß',
+ -- chosen name of raster_coverage
+ '1750.berlin_schmettau',
+ -- title [short description]
+ '1750 Stadtplan von Berlin, Schmettau - 1:4333 - Schwarz-Weiß',
+ -- abstract [long description]
  'Der Plan wurde nach einer um 1747 abgeschlossenen Neuvermessung Berlins angefertigt und wird als äußerst zuverlässige Quelle angesehen. Der Titel ist in einer sehr kunstvollen Allegorie des Kupferstechers Georg Friedrich Schmidt im linken unteren Blatt eingefasst. Die Karte selbst ist hingegen laut Jacoby von Friedrich Gottlieb Berger gestochen. Bei diesem Exemplar handelt es sich um eine 1750 korrigierte Version der ursprünglichen Ausgabe von 1748; lediglich zu erkennen an verschiedentlichen überklebten Stellen. Korrigiert wurden: Das Octagon (vor dem Potsdamer Tor ist der Friedrichstädtische Kirchhof hinzugekommen). Das Prinz Heinrich Palais, mit korrekte Position. Umgebung des Invalidenhauses (Gärten nachgetragen). Die Gegend zwischen den Bastionen 12 und 13 die (Alte) Friedrichsbrücke (später auch Herkulesbrücke genannt). Gebiet der Bollwerke 6 und 7 bei Neukölln am Wasser.'
 );
 ---

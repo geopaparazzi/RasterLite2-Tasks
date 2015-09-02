@@ -30,8 +30,8 @@ DETACH DATABASE db_import;
 ---
 -- .read ../source_sql/update.rasterlite2_coverageextent.sql
 SELECT DateTime('now'),'Note to complete the metadata definitions for all Coverages to be published as WMS layers. "';
-SELECT SE_UpdateRasterCoverageExtent(1);
-SELECT SE_UpdateVectorCoverageExtent(1);
+---
+.read ../source_sql/update.database.sql
 ---
 SELECT DateTime('now'),'VACUUM';
 -- VACUUM;

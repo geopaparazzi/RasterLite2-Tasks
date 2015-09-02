@@ -5,10 +5,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>21672.00823560346179875</xmin>
-            <ymin>20303.17508659357554279</ymin>
-            <xmax>24568.91551019770122366</xmax>
-            <ymax>21843.9641457145298773</ymax>
+            <xmin>23020.08563796585076489</xmin>
+            <ymin>20256.96006919424689841</ymin>
+            <xmax>23184.06520504500804236</xmax>
+            <ymax>20355.39547792054509046</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -25,18 +25,28 @@
         </destinationsrs>
         <layer_coordinate_transform_info/>
     </mapcanvas>
-    <legend updateDrawingOrder="true" activeLayer="1928_berlin_luftbilder_1000_bb_tor_306820150901105424382">
+    <legend updateDrawingOrder="true" activeLayer="2010_Berlin_5000_3068_schnitt_schmettau20150902055703904">
         <legendgroup open="true" checked="Qt::Checked" name="gometries">
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="bezirke_1928" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="bezirke_192820150830042814211" visible="1"/>
                 </filegroup>
             </legendlayer>
-        </legendgroup>
-        <legendgroup open="true" checked="Qt::Checked" name="bb_tor_wms">
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="1928.berlin_luftbilder_1000_bb_tor.3068" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="2010.Berlin.5000.3068.schnitt_schmettau" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="1928_berlin_luftbilder_1000_bb_tor_306820150901105424382" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="2010_Berlin_5000_3068_schnitt_schmettau20150902055703904" visible="1"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="bb_tor_wms">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="1928.berlin_luftbilder_1000_bb_tor.3068" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="1928_berlin_luftbilder_1000_bb_tor_306820150901105424382" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="1928.berlin_luftbilder_1500_bb_tor.3068" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="1928_berlin_luftbilder_1500_bb_tor_306820150902051819890" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
@@ -48,10 +58,10 @@
             </legendlayer>
         </legendgroup>
     </legend>
-    <projectlayers layercount="3">
+    <projectlayers layercount="5">
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>1750_Berlin_Plan_de_la_ville_Schmettau_4333_306820150901105242862</id>
-            <datasource>/home/mj10777/000_links/geopaparazzi/geopaparazzi.eu/RasterLite2-Tasks/rl2_berlin/berlin_images/1750.Berlin_Plan_de_la_ville_Schmettau.4333.3068.tif</datasource>
+            <datasource>../../../rl2_berlin/berlin_images/1750.Berlin_Plan_de_la_ville_Schmettau.4333.3068.tif</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -86,7 +96,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>1928_berlin_luftbilder_1000_bb_tor_306820150901105424382</id>
-            <datasource>/home/mj10777/000_links/geopaparazzi/geopaparazzi.eu/RasterLite2-Tasks/rl2_rastersfromwms/berlin_images/1928.berlin_luftbilder_1000_bb_tor.3068.tif</datasource>
+            <datasource>../../../rl2_rastersfromwms/berlin_images/1928.berlin_luftbilder_1000_bb_tor.3068.tif</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -124,9 +134,93 @@
             </pipe>
             <blendMode>0</blendMode>
         </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>1928_berlin_luftbilder_1500_bb_tor_306820150902051819890</id>
+            <datasource>../../../rl2_rastersfromwms/berlin_images/1928.berlin_luftbilder_1500_bb_tor.3068.tif</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>1928.berlin_luftbilder_1500_bb_tor.3068</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=cass +lat_0=52.41864827777778 +lon_0=13.62720366666667 +x_0=40000 +y_0=10000 +ellps=bessel +towgs84=598.1,73.7,418.2,0.202,0.045,-2.455,6.7 +units=m +no_defs</proj4>
+                    <srsid>1031</srsid>
+                    <srid>3068</srid>
+                    <authid>EPSG:3068</authid>
+                    <description>DHDN / Soldner Berlin</description>
+                    <projectionacronym>cass</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+                    <rasterTransparency/>
+                    <contrastEnhancement>
+                        <minValue>26.8945</minValue>
+                        <maxValue>211.172</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </contrastEnhancement>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>2010_Berlin_5000_3068_schnitt_schmettau20150902055703904</id>
+            <datasource>../../../common/berlin_images/2010.Berlin.5000.3068.schnitt_schmettau.tif</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>2010.Berlin.5000.3068.schnitt_schmettau</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=cass +lat_0=52.41864827777778 +lon_0=13.62720366666667 +x_0=40000 +y_0=10000 +ellps=bessel +towgs84=598.1,73.7,418.2,0.202,0.045,-2.455,6.7 +units=m +no_defs</proj4>
+                    <srsid>1031</srsid>
+                    <srid>3068</srid>
+                    <authid>EPSG:3068</authid>
+                    <description>DHDN / Soldner Berlin</description>
+                    <projectionacronym>cass</projectionacronym>
+                    <ellipsoidacronym>bessel</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <noData>
+                <noDataList bandNo="1" useSrcNoData="0">
+                    <noDataRange min="255" max="255"/>
+                </noDataList>
+            </noData>
+            <pipe>
+                <rasterrenderer opacity="0.494118" alphaBand="-1" band="1" type="paletted">
+                    <rasterTransparency/>
+                    <colorPalette>
+                        <paletteEntry value="0" color="#ffffff" label="0"/>
+                        <paletteEntry value="1" color="#ff0000" label="1"/>
+                    </colorPalette>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>bezirke_192820150830042814211</id>
-            <datasource>../../../common/source_db/berlin_admin_geometries.db|layername=bezirke_1928</datasource>
+            <datasource>/media/mj10777/tb_4/gnu_source/adt-bundle-linux/geopaparazzi/geopaparazzi.eu/RasterLite2-Tasks/common/source_db/berlin_admin_geometries.db|layername=bezirke_1928</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -371,10 +465,10 @@
                 <edittype labelontop="0" editable="1" type="0" name="valid_since"/>
                 <edittype labelontop="0" editable="1" type="0" name="valid_until"/>
             </edittypes>
-            <editform>.</editform>
+            <editform>/media/mj10777/tb_4/gnu_source/adt-bundle-linux/geopaparazzi/geopaparazzi.eu/RasterLite2-Tasks/rl2_rastersfromwms/create_db/qgis</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform>.</annotationform>
+            <annotationform>/media/mj10777/tb_4/gnu_source/adt-bundle-linux/geopaparazzi/geopaparazzi.eu/RasterLite2-Tasks/rl2_rastersfromwms/create_db/qgis</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
